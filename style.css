@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    overflow: hidden;
+    width: 100vw;
+}
+
+.whole {
+    position: absolute;
+    
+    width: 70vw;
+    margin: 10vh 10vw;
+    padding: 5vw;
+    background-color: rgba(245, 245, 245, 0.8);
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    z-index: 3000;
+}
+
+.whole > * {
+    display: block;
+}
+
+.whole > h1 {
+    margin-top: 0;
+}
